@@ -1,0 +1,102 @@
+.profile {
+    width: 200px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+body {
+    text-align: center;
+    padding-top: 650px;
+
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 650px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    display: table;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(red 0%, blue 100%);
+    color: white;
+}
+
+.para {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    margin-top: 0px;
+    width: 100%;
+    background: white;
+    top: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.links {
+    display: inline;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.links:hover {
+    background-color: azure
+}
+
+#name {
+    font-family: 'Inter', sans-serif;
+    color: black
+}
+
+#bio {
+    padding: 50px;
+}
+
+.line {
+    background-color: black;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+p {
+    max-width: 450px;
+    margin: 25px auto;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+#contact {
+    background: black;
+
+}
+
+.contact_1 a {
+    color: white
+}
+
+.links a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px grey;
+}
